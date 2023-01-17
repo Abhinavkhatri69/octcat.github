@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+        background:;
+    }
+    input{
+      border:3px solid green;
+      width:60%;
+      padding:25px;
+      margin:50px;
+      font-size:30px;
+      font-family:serif;
+          }
+          .head{
+              font-size:4rem;
+              font-family:serif;
+              text-align: center;
+              background:lightgreen;
+              margin:120px;
+              padding:30px;
+          }
+          button{
+              padding:40px;
+              border:4px solid cyan;
+              font-size:25px;
+          }
+          .eg{
+              font-family:Serif;
+              font-size:40px;
+              color:red;
+              background: lightblue; 
+              padding:30px;
+          }
+          .examp{
+              color:black;
+              font-size:35px;
+              font-family:serif;
+              background:#aab5ff;
+              padding:30px;
+              margin:50px;
+              text-align: center;
+              
+          }
+          li{
+              margin:50px;
+              padding:5px;
+              font-size:30px;
+              color:blue;
+          }
+</style>
+<h1 class="head">GOTO LINK</h1>
+<div class="eg"> ⚠️ Check the link properly
+</div>
+
+<input type="text" id="link"placeholder="Enter link"><button onclick="myFunction()">GO</button>
+<hr>
+<script>
+    
+function myFunction() {
+  window.location.href = document.getElementById("link").value;
+  if(link.value.length==0){
+    alert("Link daal maderchod ")
+}
+}
+if(link.value=null){
+    console.log("empty")
+}
+</script>
+<div class="examp">
+    Here are some useful links
+</div>
+<div class="lnk">
+    <ul type="disc">
+        <li>
+            https://www.youtube.com
+        </li>
+        <li>
+            https://www.facebook.com
+        </li>
+        <li>
+            https://www.instagram.com
+        </li>
+        <li>
+           https://www.twitter.com
+        </li>
+        <li>
+           https://www.google.com 
+        </li>
+        <li>
+            https://www.yahoo.com
+        </li>
+    </ul>
+</div>
+</body>
+</html>
